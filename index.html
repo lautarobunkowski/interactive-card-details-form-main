@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <section>
+    <div class="background__color"></div>
+    <div class="cards__container">
+      <div class="card__container">
+        <div class="credit__logo"></div>
+        <p class="credit__number">0000 0000 0000 0000</p>
+        <p class="credit__name">JANE APPLESEED</p>
+        <p class="credit__date">00/00</p>
+      </div>
+      <div class="card__container-back">
+        <p class="credit__cvc">000</p>
+      </div>
+    </div>
+  
+    <form action="" class="information__container">
+        <label for="cardHolderName">CARDHOLDER NAME</label>
+        <input type="text" name="cardHolderName" id="#cardHolderName" placeholder="e.g. Jane Appleseed"/>
+
+        <label for="cardNumber">CARD NUMBER</label>
+        <input type="text" name="cardNumber" id="#cardNumber" placeholder="e.g. 1234 5678 9123 0000"/>
+
+        <div>
+          <div>
+            <label for="cardDate">EXP. DATE (MM/YY)</label>
+            <div>
+              <input class="input__date-mm" type="number" name="" id="#" placeholder="MM"/>
+              <input class="input__date-yy" type="number" name="" id="#" placeholder="YY"/>
+            </div>
+          </div>
+          
+          <div>
+            <label for="CVC">CVC</label>
+            <input type="text" name="CVC" id="#CVC" placeholder="e.g. 123"/>
+          </div>
+          
+        </div>
+        
+        <button class="button__confirm">Confirm</button>
+    </form>
+  
+    
+  </section>
+
+ 
+
+  <!-- Completed state start -->
+<!-- 
+  Thank you!
+  We've added your card details
+  Continue -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
