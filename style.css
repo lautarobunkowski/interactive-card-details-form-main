@@ -131,7 +131,7 @@ form label{
 }
 
 form input{
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 .information__container div{
@@ -162,6 +162,7 @@ form input{
 
 .button__confirm{
     margin-top: 1rem;
+    margin-bottom: 2rem;
     font-family: 'Space Grotesk', sans-serif;
     background-color: hsl(278, 68%, 11%);
     color: white;
@@ -171,7 +172,8 @@ form input{
     padding: 1rem 0rem;
 }
 
-@media(max-width: 900px){
+/* @media(max-width: 900px){
+
     .background__color{
         background-repeat: repeat;
         width: 100%;
@@ -188,7 +190,6 @@ form input{
     .cards__container{
         width: auto;
         height: 400px;
-        max-width: none;
         flex-direction: column-reverse;
     }
 
@@ -211,6 +212,51 @@ form input{
         left: 260px;
         font-size: 13px;
     }
+
+} */
+
+@media(max-width:900px) {
+
+    .background__color{
+        width: 100%;
+        height: 200px;
+        top: 0;
+        left: 0;
+        background-size: cover;
+    }
+
+    section{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .cards__container{
+        padding: 2rem 1rem;
+        margin-bottom: 6rem;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .card__container{
+        background-size: cover;
+        position: absolute;
+        top: 125px;
+        width: 300px;
+        height: 150px;
+    }
+
+    .card__container-back{
+        background-size: cover;
+        width: 300px;
+        height: 150px;
+    }
+
+    .credit__cvc{
+        top: 48px;
+        left: 215px;
+        font-size: 13px;
+    }
+
 
 }
 
