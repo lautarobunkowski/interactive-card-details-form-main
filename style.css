@@ -201,7 +201,7 @@ form input{
         padding: 1.2rem;
         top: 125px;
         width: 300px;
-        height: 150px;
+        height: 160px;
     }
 
     .credit__logo{
@@ -217,7 +217,7 @@ form input{
     
     .credit__name{
         font-size: 12px;
-        top: 24px;
+        top: 27px;
     }
     
     .credit__date{
@@ -228,7 +228,7 @@ form input{
         border-radius: 0.5rem;
         background-size: cover;
         width: 300px;
-        height: 150px;
+        height: 160px;
     }
 
     .credit__cvc{
